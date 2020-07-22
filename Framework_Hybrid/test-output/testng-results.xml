@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="11" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="EF_Fusion_Suite" duration-ms="1234042" started-at="2020-07-16T09:32:17 IST" finished-at="2020-07-16T09:52:51 IST">
+    <groups>
+    </groups>
+    <test name="EF_Fusion_test" duration-ms="1234042" started-at="2020-07-16T09:32:17 IST" finished-at="2020-07-16T09:52:51 IST">
+      <class name="com.testScripts.GeneralAccounting_Script">
+        <test-method status="PASS" signature="setExtent_Reports()[pri:0, instance:com.testScripts.GeneralAccounting_Script@42f93a98]" name="setExtent_Reports" is-config="true" duration-ms="80" started-at="2020-07-16T09:32:17 IST" finished-at="2020-07-16T09:32:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent_Reports -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.testScripts.GeneralAccounting_Script@42f93a98]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-07-16T09:32:17 IST" finished-at="2020-07-16T09:32:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="selecting_GeneralAccounting_Module()[pri:1, instance:com.testScripts.GeneralAccounting_Script@42f93a98]" name="selecting_GeneralAccounting_Module" duration-ms="114062" started-at="2020-07-16T09:32:17 IST" description="Selecting GeneralAccounting Module . . ." finished-at="2020-07-16T09:34:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selecting_GeneralAccounting_Module -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testScripts.GeneralAccounting_Script@42f93a98]" name="tearDown" is-config="true" duration-ms="2" started-at="2020-07-16T09:34:11 IST" finished-at="2020-07-16T09:34:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selecting_GeneralAccounting_Module status=SUCCESS method=GeneralAccounting_Script.selecting_GeneralAccounting_Module()[pri:1, instance:com.testScripts.GeneralAccounting_Script@42f93a98] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="create_Journal(java.util.Hashtable)[pri:2, instance:com.testScripts.GeneralAccounting_Script@42f93a98]" name="create_Journal" duration-ms="134492" started-at="2020-07-16T09:34:11 IST" description="Creating journal. . ." data-provider="dp" finished-at="2020-07-16T09:36:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Accounting Period=, Balance Type=, Journal Description=Journal testing using Selenium, Batch no=Batch331, Credit amount=100.0, debit amount=100.0, Ledger=US Primary Ledger, Journal=Journal testing, Category=Manual, Batch Description=Testing manual journal using automation script}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_Journal -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testScripts.GeneralAccounting_Script@42f93a98]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-07-16T09:36:26 IST" finished-at="2020-07-16T09:36:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=create_Journal status=SUCCESS method=GeneralAccounting_Script.create_Journal(java.util.Hashtable)[pri:2, instance:com.testScripts.GeneralAccounting_Script@42f93a98] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="create_Journal(java.util.Hashtable)[pri:2, instance:com.testScripts.GeneralAccounting_Script@42f93a98]" name="create_Journal" duration-ms="148339" started-at="2020-07-16T09:36:26 IST" description="Creating journal. . ." data-provider="dp" finished-at="2020-07-16T09:38:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Accounting Period=, Balance Type=, Journal Description=Journal testing using Selenium_1, Batch no=Batch332, Credit amount=200.0, debit amount=200.0, Ledger=US Primary Ledger, Journal=Journal testing_1, Category=Manual, Batch Description=Testing manual journal using automation script_Selenium}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_Journal -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testScripts.GeneralAccounting_Script@42f93a98]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-07-16T09:38:54 IST" finished-at="2020-07-16T09:38:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=create_Journal status=SUCCESS method=GeneralAccounting_Script.create_Journal(java.util.Hashtable)[pri:2, instance:com.testScripts.GeneralAccounting_Script@42f93a98] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.testScripts.GeneralAccounting_Script@42f93a98]" name="closeBrowser" is-config="true" duration-ms="2922" started-at="2020-07-16T09:38:54 IST" finished-at="2020-07-16T09:38:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="end_ExtentReport()[pri:0, instance:com.testScripts.GeneralAccounting_Script@42f93a98]" name="end_ExtentReport" is-config="true" duration-ms="322" started-at="2020-07-16T09:52:51 IST" finished-at="2020-07-16T09:52:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end_ExtentReport -->
+      </class> <!-- com.testScripts.GeneralAccounting_Script -->
+      <class name="com.testScripts.PayablessScript2">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.testScripts.PayablessScript2@c46bcd4]" name="beforeClass" is-config="true" duration-ms="1" started-at="2020-07-16T09:38:57 IST" finished-at="2020-07-16T09:38:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="aaplicationLaunch()[pri:1, instance:com.testScripts.PayablessScript2@c46bcd4]" name="aaplicationLaunch" duration-ms="136777" started-at="2020-07-16T09:38:57 IST" finished-at="2020-07-16T09:41:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaplicationLaunch -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testScripts.PayablessScript2@c46bcd4]" name="tearDown" is-config="true" duration-ms="2" started-at="2020-07-16T09:41:14 IST" finished-at="2020-07-16T09:41:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=aaplicationLaunch status=SUCCESS method=PayablessScript2.aaplicationLaunch()[pri:1, instance:com.testScripts.PayablessScript2@c46bcd4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="createInvoiceFlow(java.util.Hashtable)[pri:2, instance:com.testScripts.PayablessScript2@c46bcd4]" name="createInvoiceFlow" duration-ms="323343" started-at="2020-07-16T09:41:14 IST" description="Create invoice" data-provider="dp" finished-at="2020-07-16T09:46:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Testing for selenium, Distribution Combination=101.10.64220.110.000.000, Business Unit=US1 Business Unit, Supplier Site=Dell US1, InvoiceNumber=APIN00063, Amount=100.00, UserName=fin_impl, Legal Entity=US1 Legal Entity, Supplier Number=1255.0, AccountType=64220, Supplier=Dell Inc.}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInvoiceFlow -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testScripts.PayablessScript2@c46bcd4]" name="tearDown" is-config="true" duration-ms="2" started-at="2020-07-16T09:46:37 IST" finished-at="2020-07-16T09:46:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createInvoiceFlow status=SUCCESS method=PayablessScript2.createInvoiceFlow(java.util.Hashtable)[pri:2, instance:com.testScripts.PayablessScript2@c46bcd4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.testScripts.PayablessScript2@c46bcd4]" name="closeBrowser" is-config="true" duration-ms="2935" started-at="2020-07-16T09:46:37 IST" finished-at="2020-07-16T09:46:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testScripts.PayablessScript2 -->
+      <class name="com.testScripts.RequisitionScript">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.testScripts.RequisitionScript@3234e239]" name="beforeClass" is-config="true" duration-ms="1" started-at="2020-07-16T09:46:40 IST" finished-at="2020-07-16T09:46:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.testScripts.RequisitionScript@3234e239]" name="launchApplication" duration-ms="105176" started-at="2020-07-16T09:46:40 IST" description="launchApplication" finished-at="2020-07-16T09:48:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testScripts.RequisitionScript@3234e239]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-07-16T09:48:25 IST" finished-at="2020-07-16T09:48:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=launchApplication status=SUCCESS method=RequisitionScript.launchApplication()[pri:0, instance:com.testScripts.RequisitionScript@3234e239] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="RequisitionProcess(java.util.Hashtable)[pri:1, instance:com.testScripts.RequisitionScript@3234e239]" name="RequisitionProcess" duration-ms="262829" started-at="2020-07-16T09:48:26 IST" description="RequisitionProcess" data-provider="dp" finished-at="2020-07-16T09:52:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Item ID=AS00100, password=, SupplierName=1255.0, SupplierID=Dell Inc., ItemName=Alliance Business Software, username=CALVIN.ROTH}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequisitionProcess -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testScripts.RequisitionScript@3234e239]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-07-16T09:52:48 IST" finished-at="2020-07-16T09:52:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RequisitionProcess status=SUCCESS method=RequisitionScript.RequisitionProcess(java.util.Hashtable)[pri:1, instance:com.testScripts.RequisitionScript@3234e239] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.testScripts.RequisitionScript@3234e239]" name="closeBrowser" is-config="true" duration-ms="2955" started-at="2020-07-16T09:52:48 IST" finished-at="2020-07-16T09:52:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testScripts.RequisitionScript -->
+    </test> <!-- EF_Fusion_test -->
+  </suite> <!-- EF_Fusion_Suite -->
+</testng-results>

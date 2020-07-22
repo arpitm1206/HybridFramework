@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.testScripts.GeneralAccounting_Script">
+        <methods>
+          <include name="tearDown"/>
+          <include name="end_ExtentReport"/>
+          <include name="create_Journal"/>
+          <include name="selecting_GeneralAccounting_Module"/>
+          <include name="setExtent_Reports"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testScripts.GeneralAccounting_Script -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="EF_Fusion_Suite">
+  <test name="EF_Fusion_test" >
+    <classes>
+       <class name="com.testScripts.PayablessScript2" />
+    </classes>
+  </test>
+</suite>
+

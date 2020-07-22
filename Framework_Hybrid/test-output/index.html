@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-EF_Fusion_Suite">
+              <span class="suite-name border-passed">EF_Fusion_Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-EF_Fusion_Suite">
+                    <span>C:\Users\musara\eclipse-workspace\Framework_Hybrid\testNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-EF_Fusion_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-EF_Fusion_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-EF_Fusion_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-EF_Fusion_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-EF_Fusion_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-EF_Fusion_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-EF_Fusion_Suite" class="hide-methods passed suite-EF_Fusion_Suite"> (hide)</a> <!-- hide-methods passed suite-EF_Fusion_Suite -->
+                      <a href="#" panel-name="suite-EF_Fusion_Suite" class="show-methods passed suite-EF_Fusion_Suite"> (show)</a> <!-- show-methods passed suite-EF_Fusion_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-EF_Fusion_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EF_Fusion_Suite" title="com.testScripts.RequisitionScript" hash-for-method="RequisitionProcess({Item ID=AS00100, password=, SupplierName=1255.0, SupplierID=Dell Inc., ItemName=Alliance Business S...)">RequisitionProcess({Item ID=AS00100, password=, SupplierName=1255.0, SupplierID=Dell Inc., ItemName=Alliance Business S...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EF_Fusion_Suite" title="com.testScripts.PayablessScript2" hash-for-method="aaplicationLaunch">aaplicationLaunch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EF_Fusion_Suite" title="com.testScripts.PayablessScript2" hash-for-method="createInvoiceFlow({Description=Testing for selenium, Distribution Combination=101.10.64220.110.000.000, Business Unit=...)">createInvoiceFlow({Description=Testing for selenium, Distribution Combination=101.10.64220.110.000.000, Business Unit=...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EF_Fusion_Suite" title="com.testScripts.GeneralAccounting_Script" hash-for-method="create_Journal({Accounting Period=, Balance Type=, Journal Description=Journal testing using Selenium_1, Batch no=B...)">create_Journal({Accounting Period=, Balance Type=, Journal Description=Journal testing using Selenium_1, Batch no=B...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EF_Fusion_Suite" title="com.testScripts.GeneralAccounting_Script" hash-for-method="create_Journal({Accounting Period=, Balance Type=, Journal Description=Journal testing using Selenium, Batch no=Bat...)">create_Journal({Accounting Period=, Balance Type=, Journal Description=Journal testing using Selenium, Batch no=Bat...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EF_Fusion_Suite" title="com.testScripts.RequisitionScript" hash-for-method="launchApplication">launchApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EF_Fusion_Suite" title="com.testScripts.GeneralAccounting_Script" hash-for-method="selecting_GeneralAccounting_Module">selecting_GeneralAccounting_Module</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-EF_Fusion_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-EF_Fusion_Suite" class="panel EF_Fusion_Suite">
+          <div class="suite-EF_Fusion_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testScripts.GeneralAccounting_Script</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="create_Journal({Accounting Period=, Balance Type=, Journal Description=Journal testing using Selenium_1, Batch no=B...)">
+                  </a> <!-- create_Journal({Accounting Period=, Balance Type=, Journal Description=Journal testing using Selenium_1, Batch no=B...) -->
+                  <span class="method-name">create_Journal</span>
+                  <span class="parameters">({Accounting Period=, Balance Type=, Journal Description=Journal testing using Selenium_1, Batch no=Batch332, Credit amount=200.0, debit amount=200.0, Ledger=US Primary Ledger, Journal=Journal testing_1, Category=Manual, Batch Description=Testing manual journal using automation script_Selenium})</span>
+                  <em>
+(Creating journal. . .)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="create_Journal({Accounting Period=, Balance Type=, Journal Description=Journal testing using Selenium, Batch no=Bat...)">
+                  </a> <!-- create_Journal({Accounting Period=, Balance Type=, Journal Description=Journal testing using Selenium, Batch no=Bat...) -->
+                  <span class="method-name">create_Journal</span>
+                  <span class="parameters">({Accounting Period=, Balance Type=, Journal Description=Journal testing using Selenium, Batch no=Batch331, Credit amount=100.0, debit amount=100.0, Ledger=US Primary Ledger, Journal=Journal testing, Category=Manual, Batch Description=Testing manual journal using automation script})</span>
+                  <em>
+(Creating journal. . .)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selecting_GeneralAccounting_Module">
+                  </a> <!-- selecting_GeneralAccounting_Module -->
+                  <span class="method-name">selecting_GeneralAccounting_Module</span>
+                  <em>
+(Selecting GeneralAccounting Module . . .)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EF_Fusion_Suite-class-passed -->
+          <div class="suite-EF_Fusion_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testScripts.RequisitionScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RequisitionProcess({Item ID=AS00100, password=, SupplierName=1255.0, SupplierID=Dell Inc., ItemName=Alliance Business S...)">
+                  </a> <!-- RequisitionProcess({Item ID=AS00100, password=, SupplierName=1255.0, SupplierID=Dell Inc., ItemName=Alliance Business S...) -->
+                  <span class="method-name">RequisitionProcess</span>
+                  <span class="parameters">({Item ID=AS00100, password=, SupplierName=1255.0, SupplierID=Dell Inc., ItemName=Alliance Business Software, username=CALVIN.ROTH})</span>
+                  <em>
+(RequisitionProcess)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApplication">
+                  </a> <!-- launchApplication -->
+                  <span class="method-name">launchApplication</span>
+                  <em>
+(launchApplication)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EF_Fusion_Suite-class-passed -->
+          <div class="suite-EF_Fusion_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testScripts.PayablessScript2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="aaplicationLaunch">
+                  </a> <!-- aaplicationLaunch -->
+                  <span class="method-name">aaplicationLaunch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createInvoiceFlow({Description=Testing for selenium, Distribution Combination=101.10.64220.110.000.000, Business Unit=...)">
+                  </a> <!-- createInvoiceFlow({Description=Testing for selenium, Distribution Combination=101.10.64220.110.000.000, Business Unit=...) -->
+                  <span class="method-name">createInvoiceFlow</span>
+                  <span class="parameters">({Description=Testing for selenium, Distribution Combination=101.10.64220.110.000.000, Business Unit=US1 Business Unit, Supplier Site=Dell US1, InvoiceNumber=APIN00063, Amount=100.00, UserName=fin_impl, Legal Entity=US1 Legal Entity, Supplier Number=1255.0, AccountType=64220, Supplier=Dell Inc.})</span>
+                  <em>
+(Create invoice)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EF_Fusion_Suite-class-passed -->
+        </div> <!-- panel EF_Fusion_Suite -->
+        <div panel-name="test-xml-EF_Fusion_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\musara\eclipse-workspace\Framework_Hybrid\testNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;EF_Fusion_Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;EF_Fusion_test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testScripts.GeneralAccounting_Script&quot;/&gt;
+      &lt;class name=&quot;com.testScripts.PayablessScript2&quot;/&gt;
+      &lt;class name=&quot;com.testScripts.RequisitionScript&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EF_Fusion_test --&gt;
+&lt;/suite&gt; &lt;!-- EF_Fusion_Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-EF_Fusion_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for EF_Fusion_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">EF_Fusion_test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-EF_Fusion_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for EF_Fusion_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-EF_Fusion_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for EF_Fusion_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_EF_Fusion_Suite');
+function tableData_EF_Fusion_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createInvoiceFlow')
+data.setCell(0, 2, 'com.testScripts.PayablessScript2')
+data.setCell(0, 3, 323343);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'RequisitionProcess')
+data.setCell(1, 2, 'com.testScripts.RequisitionScript')
+data.setCell(1, 3, 262829);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'create_Journal')
+data.setCell(2, 2, 'com.testScripts.GeneralAccounting_Script')
+data.setCell(2, 3, 148339);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'aaplicationLaunch')
+data.setCell(3, 2, 'com.testScripts.PayablessScript2')
+data.setCell(3, 3, 136777);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'create_Journal')
+data.setCell(4, 2, 'com.testScripts.GeneralAccounting_Script')
+data.setCell(4, 3, 134492);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'selecting_GeneralAccounting_Module')
+data.setCell(5, 2, 'com.testScripts.GeneralAccounting_Script')
+data.setCell(5, 3, 114062);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'launchApplication')
+data.setCell(6, 2, 'com.testScripts.RequisitionScript')
+data.setCell(6, 3, 105176);
+window.suiteTableData['EF_Fusion_Suite']= { tableData: data, tableDiv: 'times-div-EF_Fusion_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 20 minutes</span>
+              <div id="times-div-EF_Fusion_Suite">
+              </div> <!-- times-div-EF_Fusion_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-EF_Fusion_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for EF_Fusion_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-EF_Fusion_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.testScripts.RequisitionScript</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">end_ExtentReport</span>
+                <br/>
+                <span class="ignored-method-name">setExtent_Reports</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.testScripts.PayablessScript2</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">end_ExtentReport</span>
+                <br/>
+                <span class="ignored-method-name">setExtent_Reports</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-EF_Fusion_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testScripts.GeneralAccounting_Script</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setExtent_Reports</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">92 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">selecting_GeneralAccounting_Module</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=selecting_GeneralAccounting_Module status=SUCCESS method=GeneralAccounting_Script.s...)</span>
+                <span class="method-start">114164 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">create_Journal({Accounting Period=, Balance Type=, Journal Description=Journal testing using Selenium, Batch no=Bat...)</span>
+                <span class="method-start">114216 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=create_Journal status=SUCCESS method=GeneralAccounting_Script.create_Journal(java.u...)</span>
+                <span class="method-start">248714 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">create_Journal({Accounting Period=, Balance Type=, Journal Description=Journal testing using Selenium_1, Batch no=B...)</span>
+                <span class="method-start">248715 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=create_Journal status=SUCCESS method=GeneralAccounting_Script.create_Journal(java.u...)</span>
+                <span class="method-start">397058 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">397061 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testScripts.PayablessScript2</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">399984 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">aaplicationLaunch</span>
+                <span class="method-start">399986 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=aaplicationLaunch status=SUCCESS method=PayablessScript2.aaplicationLaunch()[pri:1,...)</span>
+                <span class="method-start">536767 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">createInvoiceFlow({Description=Testing for selenium, Distribution Combination=101.10.64220.110.000.000, Business Unit=...)</span>
+                <span class="method-start">536849 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=createInvoiceFlow status=SUCCESS method=PayablessScript2.createInvoiceFlow(java.uti...)</span>
+                <span class="method-start">860196 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">860199 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testScripts.RequisitionScript</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">863135 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">863136 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=launchApplication status=SUCCESS method=RequisitionScript.launchApplication()[pri:0...)</span>
+                <span class="method-start">968314 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">RequisitionProcess({Item ID=AS00100, password=, SupplierName=1255.0, SupplierID=Dell Inc., ItemName=Alliance Business S...)</span>
+                <span class="method-start">968336 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=RequisitionProcess status=SUCCESS method=RequisitionScript.RequisitionProcess(java....)</span>
+                <span class="method-start">1231167 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">1231168 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testScripts.GeneralAccounting_Script</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">end_ExtentReport</span>
+                <span class="method-start">1234150 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
